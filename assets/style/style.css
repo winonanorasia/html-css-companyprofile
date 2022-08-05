@@ -1,0 +1,420 @@
+body {
+  background-color: #0f394d;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  z-index: 99;
+}
+
+.nav-color {
+  background-color: #40b6ed;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  font-weight: 500;
+  color: #59724b;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #304025;
+}
+
+.nav-link {
+  font-size: 16px;  
+  color: #59724b;
+}
+
+.nav-link.active {
+  color: #304025;
+  font-weight: 500;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #0f394d;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* hero */
+#hero {
+  background: url(../img/boutique-img-bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-tagline h1 {
+  color: #fcfffa;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.hero-tagline p {
+  color: #fcfffa;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 26px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  color: #304025;
+  background-color: white;
+  width: 200px;
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Service Card */
+#service {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #304025;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #304025;
+}
+
+.services-card {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  border-radius: 24px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+}
+
+.circle-icon {
+  width: 94px;
+  height: 94px;
+  background-color: #a6c6b2;
+  border-radius: 50%;
+}
+
+.circle-icon img {
+  height: 50%;
+  margin: auto;
+}
+
+.services-card h3 {
+  color: #307502;
+  font-size: 24px;
+}
+
+.services-card p {
+  color: #304025;
+  font-size: 15px;
+}
+
+.services-card:hover {
+  border-style: solid;
+  border-color: #59724b;
+  border-width: 2px;
+  transition: 200ms;
+}
+
+/* search */
+#search {
+  background-image: url(../img/searchbg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin: 40px 0px 0px 0px;
+}
+
+#search p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#search .form-control {
+  margin: 0px 10px 40px 10px;
+}
+
+.button-search {
+  margin: 0px 0px 40px 10px;
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #0f394d;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+#search .row {
+
+  border-radius: 18px;
+  background-color: rgba(8, 33, 65, 0.3);
+  grid-template-columns: 200;
+}
+
+/* card design */
+#ourdesign {
+  background-color: #cbdbd1;
+  padding: 40px 0 75px 0;
+}
+
+#ourdesign h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: 0em;
+}
+
+.card-design img {
+  max-width: 300px;
+}
+
+.card-design h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design span {
+  color: white;
+}
+
+.card-design .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.card-design2 img {
+  max-width: 600px;
+}
+
+.card-design2 h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-design2 span {
+  color: white;
+}
+
+.card-design2 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.card-design2 .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease-in-out .3s;
+}
+
+.btn-left {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
+}
+
+.btn-right {
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  background-color: #59724b;
+  padding: 0;
+}
+
+/* contact */
+#contact {
+  background-image: url(../img/blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#contact .overlay { 
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact h3 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.kontak h6 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 18px 0 14px 0;
+}
+
+.kontak img {
+  max-height: 22px;
+  filter: invert(100%);
+}
+
+.sosmed img {
+  max-height: 36px;
+  filter: invert(100%);
+}
+
+.kontak a {
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+.kontak .mbb {
+  margin-bottom: 10px;
+}
+
+.card-contact {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.form-control {
+  background: #d5d5d5;
+}
+
+.form-floating label {
+  color: #a0a0a0;
+}
+
+.btn-submit {
+  width: 133px;
+  height: 40px;
+  color: white;
+  background-color: #0f394d;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: #000000;
+}
+
+footer img {
+  max-width: 48px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.copyright {
+  bottom: 2%;
+  color: white;
+}
+
+.copyright p {
+  font-size: 12px;
+}
+
+.kontak2 h6 {
+  color: #304025;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 18px 0 14px 0;
+}
+
+.kontak2 img {
+  max-height: 22px;
+}
+
+.sosmed2 img {
+  max-height: 36px;
+}
+
+.kontak2 a {
+  color: #304025;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 18px;
+  text-decoration: none;
+}
+
+.kontak2 .mbb {
+  margin-bottom: 10px;
+}
+
+#member {
+  padding: 100px 0;
+  background-color: #cbdbd1;
+}
